@@ -87,7 +87,7 @@ Now paste in the following commands into the terminal in sequence:
 #### Running Container
     
     clear
-    docker run -d -p 1000:1000 -v /root/docker-offline/model:/src/model node-example-server
+    docker run -d -p 3000:3000 -v /root/docker-offline/model:/src/model node-example-server
 
 #### Showcasing Persistent Storage
 
