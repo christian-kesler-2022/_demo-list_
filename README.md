@@ -17,9 +17,7 @@ Now paste in the following commands into the terminal and open port 3000:
     git init
     git branch -m main
     git remote add origin https://github.com/christian-kesler-2022/node-example-server
-    git pull origin offline-install
-    curl https://nodejs.org/dist/v16.16.0/node-v16.16.0.tar.gz > src/node-v16.16.0.tar.gz
-    curl https://nodejs.org/dist/v16.14.0/node-v16.14.0.tar.gz > src/node-v16.14.0.tar.gz
+    git pull origin main
     docker build . -t node-example-server
     docker run -d -p 1000:1000 -v /root/node-example-server/src/model:/src/model node-example-server
     
