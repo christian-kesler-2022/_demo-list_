@@ -110,7 +110,7 @@ Now paste in the following commands into the terminal in sequence:
     cd ../../..
 
 ----
-## DevExtreme (NodeJS)
+## DevExtreme & Data Visualization (NodeJS)
 
 GitHub Repo:  
 
