@@ -19,7 +19,7 @@ Now paste in the following commands into the terminal and open port 3000:
     git remote add origin https://github.com/christian-kesler-2022/node-example-server
     git pull origin main
     docker build . -t node-example-server
-    docker run -d -p 1000:1000 -v /root/node-example-server/src/model:/src/model node-example-server
+    docker run -d -p 3000:3000 -v /root/node-example-server/src/model:/src/model node-example-server
     
 ## DevExtreme (NodeJS)
 
