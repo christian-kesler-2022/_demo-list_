@@ -1,5 +1,28 @@
 # Demo List
 
+## Persisent Storage & XML Validation (NodeJS)
+
+GitHub Repo:
+  
+    https://github.com/christian-kesler-2022/node-example-server
+
+Head over to Play With Docker using the link below:
+
+    https://labs.play-with-docker.com/
+  
+Now paste in the following commands into the terminal and open port 3000:
+
+    mkdir node-example-server
+    cd node-example-server
+    git init
+    git branch -m main
+    git remote add origin https://github.com/christian-kesler-2022/node-example-server
+    git pull origin offline-install
+    curl https://nodejs.org/dist/v16.16.0/node-v16.16.0.tar.gz > src/node-v16.16.0.tar.gz
+    curl https://nodejs.org/dist/v16.14.0/node-v16.14.0.tar.gz > src/node-v16.14.0.tar.gz
+    docker build . -t node-example-server
+    docker run -d -p 1000:1000 -v /root/node-example-server/src/model:/src/model node-example-server
+    
 ## DevExtreme (NodeJS)
 
 GitHub Repo:  
@@ -42,3 +65,4 @@ Now paste in the following commands into the terminal and open port 3000:
     docker run -it \
     -e MYSQL_ROOT_PASSWORD=secret \
     -p 3000:3000 ironclad
+
