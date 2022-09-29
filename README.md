@@ -51,7 +51,7 @@ Now paste in the following commands into the terminal in sequence:
     cd ../docker-offline
     clear
     pwd
-    ls -l
+    ls -lh
     
 #### Removing existing Images
 
@@ -73,7 +73,7 @@ Now paste in the following commands into the terminal in sequence:
     cd ..
     clear
     pwd
-    ls -la
+    ls -lha
     
 #### Loading exported Images
 
