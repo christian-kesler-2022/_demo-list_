@@ -1,11 +1,7 @@
 # Demo List
 
 ----
-## Persisent Storage & XML Validation Server (NodeJS)
-
-GitHub Repo:
-  
-    https://github.com/christian-kesler-2022/node-example-server
+## <a href="https://github.com/christian-kesler-2022/node-example-server">Persisent Storage & XML Validation Server (NodeJS)</a>
 
 Head over to Play With Docker using the link below:
 
@@ -23,11 +19,7 @@ Now paste in the following commands into the terminal and open port 3000:
     docker run -d -p 3000:3000 -v /root/node-example-server/src/model:/src/model node-example-server
  
 ----
-## Offline Installation of Persisent Storage & XML Validation Server (NodeJS)
-
-GitHub Repo:
-  
-    https://github.com/christian-kesler-2022/node-example-server
+## <a href="https://github.com/christian-kesler-2022/node-example-server">Offline Installation of Persisent Storage & XML Validation Server (NodeJS)</a>
 
 Head over to Play With Docker using the link below:
 
@@ -110,11 +102,7 @@ Now paste in the following commands into the terminal in sequence:
     cd ../../..
 
 ----
-## DevExtreme & Data Visualization (NodeJS)
-
-GitHub Repo:  
-
-    https://github.com/christian-kesler-2022/node-boilerplate
+## <a href="https://github.com/christian-kesler-2022/node-boilerplate">DevExtreme & Data Visualization (NodeJS)</a>
 
 Head over to StackBlitz using the link below:
 
@@ -127,11 +115,11 @@ Now paste in the following commands into the terminal and open port 3000:
     node index.js
 
 ----
-## Ironclad Authentication (NodeJS & MySQL)
+## <a href="https://github.com/christian-kesler-2022/ironclad">Ironclad Authentication (NodeJS & MySQL)</a>
 
 GitHub Repo:
   
-    https://github.com/christian-kesler-2022/ironclad
+    
 
 Head over to Play With Docker using the link below:
 
